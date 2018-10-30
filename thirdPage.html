@@ -3,6 +3,10 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link type="text/css" rel="stylesheet" href="./css/index.css" />
+  <script language="javascript">
+       var score= localStorage.getItem("storageName");
+       $("#both").html('<h3> You have got <bold> '+score+'</bold> days left</h3>');
+</script>
 </head>
 
 <body>
@@ -153,7 +157,7 @@
           </span><br>
 
 
-    </div>
+      </div>
     <center><button class="button button2" id="submitClick"> Submit </center></button>
     </form>
 </body>
